@@ -25,6 +25,5 @@ public class V12EjercicioCaracteresEspeciales {
         // Comillas dobles
         System.out.println("Comillas dobles: \"" + nombre + "\"");
         
-        
     }
 }
