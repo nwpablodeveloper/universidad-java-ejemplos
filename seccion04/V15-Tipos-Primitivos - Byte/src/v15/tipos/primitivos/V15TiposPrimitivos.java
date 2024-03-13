@@ -14,7 +14,7 @@ public class V15TiposPrimitivos {
         System.out.println("Valor minimo del byte = " + Byte.MIN_VALUE);
         System.out.println("Valor minimo del byte = " + Byte.MAX_VALUE);
         // Convertir de entero a tipo byte
-        System.out.println("Convertir 129 a byte");
+        System.out.println("Forzar 129 a byte");
         numeroByte = (byte)129;
         System.out.println("numeroByte2 = " + numeroByte);
     }
