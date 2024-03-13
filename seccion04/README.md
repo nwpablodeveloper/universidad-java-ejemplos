@@ -1,3 +1,11 @@
 [V15 Tipos Primitivos - Byte](V15-Tipos-Primitivos-Byte/src/v15/tipos/primitivos/V15TiposPrimitivos.java)
-* Byte es un tipo de dato primitivo y tiene un tamaño disponible
-que va desde: - 128 hasta 127
+* Byte 
+MIN Short: -128
+MAX Short: 127
+
+[V16 Tipos enteros Numericos - Short](V16-Tipos-Enteros-Numericos/src/v16/tipos/numericos/v16TiposEnterosNumericos)
+* Short
+MIN Short: -32768
+MAX Short: 32767
+
+
