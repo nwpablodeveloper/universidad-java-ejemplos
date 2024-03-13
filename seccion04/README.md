@@ -3,7 +3,7 @@
  - MIN Short: -128
  - MAX Short: 127
 
-[V16 Tipos enteros Numericos - Short](V16-Tipos-Enteros-Numericos/src/v16/tipos/enteros/numericos/v16TiposEnterosNumericos)
+[V16 Tipos enteros Numericos - Short](V16-Tipos-Enteros-Numericos\src\v16\tipos\enteros\numericos)
 * Short
  - MIN Short: -32768
  - MAX Short: 32767
