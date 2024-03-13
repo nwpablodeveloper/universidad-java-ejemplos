@@ -1,6 +1,6 @@
-package v15.tipos.enteros.numericos;
+package v16.tipos.enteros.numericos;
 
-public class V15TiposEnterosNumericos {
+public class V16TiposEnterosNumericos {
     public static void main(String[] args) {
 
         // Tipo Short - puede almacenar hasta 16 bits
