@@ -13,8 +13,8 @@
     // resultado: -127 generando una perdida de precisión
 ```
 
-[V16 Tipos enteros Numericos - short](V16-Tipos-Enteros-Numericos/src/v16/tipos/enteros/numericos/V16TiposEnterosNumericos.java)
-* short
+[V16 Tipos enteros Numericos](V16-Tipos-Enteros-Numericos/src/v16/tipos/enteros/numericos/V16TiposEnterosNumericos.java)
+#### short
  - MIN Short: -32768
  - MAX Short: 32767
 
@@ -24,7 +24,7 @@
     // Resultado = -32768 generando perdida de precisión
 ```
 
-* int
+#### int
  - MIN int: -2147483648
  - MAX int: 2147483647
 
@@ -34,7 +34,7 @@
     // Resultado = -2147483648 generando una perdida de precisión
 ```
 
-* Long
+#### Long
  - MIN long: -9223372036854775808
  - MAX long: 9223372036854775807
 
