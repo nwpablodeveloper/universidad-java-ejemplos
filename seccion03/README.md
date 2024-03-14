@@ -1,4 +1,5 @@
-### Sección 03 - Fundamentos Java: Variables en Java
+### [Sección 03 - Fundamentos Java: Variables en Java]
+[Apunte de la sección](Apuntes/CFJ-A-Leccion-Variables.pdf)
 
 [V07 - Variables en Java](V07-variables-en-java/src/variables/en/java/VariablesEnJava.java)
 * Como declarar variables en Java
