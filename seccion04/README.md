@@ -18,12 +18,18 @@
  - MIN Short: -32768
  - MAX Short: 32767
 
+```java
+    // Forzar a un numero a ser short si estamos fuera de su tamaño
+    short numeroShort = (short)32768
+    // Resultado = -32768 generando perdida de precisión
+```
+
 * int
  - MIN int: -2147483648
  - MAX int: 2147483647
 
 ```java
-    // Forzar un numero a ser de tipo int si estasmo fuera de su tamaño
+    // Forzar un numero a ser de tipo int si estamos fuera de su tamaño
     int numeroInt = (int)2147483647L // Agregamos un L al final
     // Resultado = -2147483648 generando una perdida de precisión
 ```
