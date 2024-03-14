@@ -16,7 +16,7 @@ public class V15TiposPrimitivos {
         // Convertir de entero a tipo byte
         System.out.println("Forzar 129 a byte");
         numeroByte = (byte)129;
-        System.out.println("numeroByte2 = " + numeroByte);
+        System.out.println("numero byte forzado = " + numeroByte);
     }
 
 }
