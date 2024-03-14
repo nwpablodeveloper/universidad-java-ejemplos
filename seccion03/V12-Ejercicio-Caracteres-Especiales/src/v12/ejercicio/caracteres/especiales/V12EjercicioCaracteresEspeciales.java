@@ -14,9 +14,9 @@ public class V12EjercicioCaracteresEspeciales {
         // Caracter de Tabulador
         System.out.println("Tabulador: \t " + nombre);
 
-        // Carecter de retroceso ( en este ejemplo esta borranod el espacio)
+        // Carecter de retroceso ( en este ejemplo esta borrando el espacio)
         System.out.println("Retroceso: \b" + nombre);
-        System.out.println("Retroceder 2 lugares: \b\b " + nombre);
+        System.out.println("Retroceder 2 lugares: \b\b " + nombre);  
 
         // Comillas simples no necesita el caracter de escape
         System.out.println("comilla simplre: \'" + nombre + "\'");

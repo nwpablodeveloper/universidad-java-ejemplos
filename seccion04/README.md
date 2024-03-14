@@ -1,3 +1,7 @@
+### Sección 04 - Fundamentos Java: Tipos Primitivos
+[PDF Variables](Apuntes/01-VariablesJava.pdf)
+[img Tamaño de los datos](Apuntes/tamaños-del-tipo-de-dato.png)
+
 [V15 Tipos Primitivos - byte](V15-Tipos-Primitivos-Byte/src/v15/tipos/primitivos/V15TiposPrimitivos.java)
 * byte 
  - MIN Short: -128
