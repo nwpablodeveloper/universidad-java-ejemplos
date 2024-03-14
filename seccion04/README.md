@@ -9,6 +9,7 @@
 ```java
     // Forzar un numero a ser Byta fuera de su rango
     byte numeroByte = (byte)128;
+    // resultado: -127 generando una perdida de precisión
 ```
 
 [V16 Tipos enteros Numericos - short](V16-Tipos-Enteros-Numericos/src/v16/tipos/enteros/numericos/V16TiposEnterosNumericos.java)
