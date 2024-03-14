@@ -1,6 +1,8 @@
 ### Sección 04 - Fundamentos Java: Tipos Primitivos
 - [PDF Variables](Apuntes/01-VariablesJava.pdf)
-- [img Tamaño de los datos](Apuntes/tamaños-del-tipo-de-dato.png)
+<img src="Apuntes/tamaños-del-tipo-de-dato.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
 [V15 Tipos Primitivos - byte](V15-Tipos-Primitivos-Byte/src/v15/tipos/primitivos/V15TiposPrimitivos.java)
 ### byte 
