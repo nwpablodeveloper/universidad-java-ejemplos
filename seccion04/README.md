@@ -47,7 +47,7 @@
     // Resultado: 9223372036854775807 generando una perdida de precisión
 ```
 
-[V17 Tipos primitivos flotantes]()
+[V17 Tipos primitivos flotantes](V17_Ejercicio_Tipos_primitivos_flotantes/src/v17_ejercicio_tipos_primitivos_flotantes/V17_Ejercicio_Tipos_primitivos_flotantes.java)
 * Los tipos flotantes por defecto son de tipo double y para 
 corregir esto hay que indicar que su valor es de tipo FLOAT "F"
 * Los tipos entereos tambien se pueden almacenar dentro de los
@@ -60,3 +60,11 @@ tipos double sin ingún problema
 ### double
  - MIN double: 4.9E-324
  - MAX double: 1.7976931348623157E308
+
+[V18 Ejercicio: Inferencia de Tipos con Var y tipos primitivos](V18_Ejercicio_de_Tipos_con_Var_y_tipos_Primitivos/src/v18_ejercicio_de_tipos_con_var_y_tipos_primitivos/V18_Ejercicio_de_Tipos_con_Var_y_tipos_Primitivos.java)
+```java
+        var numeroEntero = 35;
+        var numeroDouble = 10.0;
+        var numeroFloat = (float)10.0F;
+```
+[V18 Practicas de Inferencias](V18_Ejercicio_de_Tipos_con_Var_y_tipos_Primitivos/src/practica/practica.java)
