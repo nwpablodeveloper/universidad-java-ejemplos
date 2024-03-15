@@ -62,7 +62,7 @@ tipos double sin ingún problema
  - MAX double: 1.7976931348623157E308
 
 [V18 Ejercicio: Inferencia de Tipos con Var y tipos primitivos](V18_Ejercicio_de_Tipos_con_Var_y_tipos_Primitivos/src/v18_ejercicio_de_tipos_con_var_y_tipos_primitivos/V18_Ejercicio_de_Tipos_con_Var_y_tipos_Primitivos.java)
-```java
+```Java
         var numeroEntero = 35;
         var numeroDouble = 10.0;
         var numeroFloat = (float)10.0F;
