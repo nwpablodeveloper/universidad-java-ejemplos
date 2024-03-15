@@ -16,7 +16,7 @@
     // resultado: -127 generando una perdida de precisión
 ```
 
-[V16 Tipos enteros Numericos](V16-Tipos-Enteros-Numericos/src/v16/tipos/enteros/numericos/V16TiposEnterosNumericos.java)
+[V16 Tipos primitivos enteros Numericos](V16-Tipos-Enteros-Numericos/src/v16/tipos/enteros/numericos/V16TiposEnterosNumericos.java)
 ### short
  - MIN Short: -32768
  - MAX Short: 32767
@@ -46,3 +46,17 @@
     long numeroLong = (long)9223372036854775808L a long
     // Resultado: 9223372036854775807 generando una perdida de precisión
 ```
+
+[V17 Tipos primitivos flotantes]()
+* Los tipos flotantes por defecto son de tipo double y para 
+corregir esto hay que indicar que su valor es de tipo FLOAT "F"
+* Los tipos entereos tambien se pueden almacenar dentro de los
+tipos double sin ingún problema
+
+### float
+ - MIN float: 1.4E-45
+ - MAX float: 3.4028235E38
+
+### double
+ - MIN double: 4.9E-324
+ - MAX double: 1.7976931348623157E308

@@ -24,8 +24,7 @@
 [V13 - Clase Scanner](V13-Clase-Scanner/src/v13/clase/scanner/V13ClaseScanner.java)
 * Ingreso de datos por el usuario utilizando la clase "Scanner"
 
-[V14 - Clase Scanner](V14-TAREA-Detalles-Libro/src/tarea/v14/detalles/libro/TAREAV14DetallesLibro.java)
-* Tarea fin de sección
+[V14 - Tarea fin de sciión](V14-TAREA-Detalles-Libro/src/tarea/v14/detalles/libro/TAREAV14DetallesLibro.java)
 Se solicita incluir la siguiente información acerca de un libro:
 titulo y autor
 
