@@ -70,14 +70,23 @@ tipos double sin ingún problema
 ```
 [V18 Practicas de Inferencias](V18_Ejercicio_de_Tipos_con_Var_y_tipos_Primitivos/src/practica/practica.java)
 
-[V19 Ejercicio: Ejercicio: Tipos Primitivos tipo char]()
+[V19 Ejercicio: Ejercicio: Tipos Primitivos tipo char](V19_Tipos_Primitivos_Tipo_Char/src/v19_tipos_primitivos_tipo_char/V19_Tipos_Primitivos_Tipo_Char.java)
 - Las variables de tipo "char" tiene la carácteristicas de poder almacenar
 solo carácter de la siguiente manera
 1. Usando el simbolo dentro comillas simples '' ( ejempl 'a' )
-2. Usando el codigo [Unicode][https://en.wikipedia.org/wiki/List_of_Unicode_characters]
+2. Usando el codigo [Unicode](https://en.wikipedia.org/wiki/List_of_Unicode_characters)
     code, carácter, decimal
 ```java
     char miCaracter = 'a';
     char miCaracter = '\u0061';
     char miCaracter = 97;
+```
+[V20 Ejercicio: Tipos Primitivos tiopo Boolean]()
+Estos datos tambien son conocidos como tipo bandera.
+Son muy utilizados en los algoritmos de nuestra app
+Los datos primitivos de tipo boolean solo pueden almacenar
+2 valores "true" o "false"
+```java
+    boolean varBoolean1 = true;
+    boolean varBoolean2 = false;
 ```
