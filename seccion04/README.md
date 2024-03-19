@@ -66,5 +66,18 @@ tipos double sin ingún problema
         var numeroEntero = 35;
         var numeroDouble = 10.0;
         var numeroFloat = (float)10.0F;
+        var caracterChar = (char)97;
 ```
 [V18 Practicas de Inferencias](V18_Ejercicio_de_Tipos_con_Var_y_tipos_Primitivos/src/practica/practica.java)
+
+[V19 Ejercicio: Ejercicio: Tipos Primitivos tipo char]()
+- Las variables de tipo "char" tiene la carácteristicas de poder almacenar
+solo carácter de la siguiente manera
+1. Usando el simbolo dentro comillas simples '' ( ejempl 'a' )
+2. Usando el codigo [Unicode][https://en.wikipedia.org/wiki/List_of_Unicode_characters]
+    code, carácter, decimal
+```java
+    char miCaracter = 'a';
+    char miCaracter = '\u0061';
+    char miCaracter = 97;
+```

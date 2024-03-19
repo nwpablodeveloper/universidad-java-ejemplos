@@ -13,6 +13,9 @@ public class V18_Ejercicio_de_Tipos_con_Var_y_tipos_Primitivos {
         
         var numeroFloat = (float)10.0F;
         System.out.println("numeroFloat = " + numeroFloat);
+        
+        var caracterChar = (char)97;
+        System.out.println("caracterChar = " + caracterChar);
     }
     
 }
