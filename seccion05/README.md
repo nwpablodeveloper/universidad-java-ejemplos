@@ -3,12 +3,9 @@
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
-[V24 Operadores Aritméticos en Java]()
-```java
-    /* 
-        + suma
-        - resta
-        - multiplicación
-        / división
-    */
-```
+[V24 Operadores Aritméticos en Java](V24_Ejercicio_Operadores_Aritmeticos_en_Java/src/v24_ejercicio_operadores_aritmeticos_en_java/V24_Ejercicio_Operadores_Aritmeticos_en_Java.java)
+* + Suma
+* - Resta
+* * Mulitplicación
+* / División
+* [% Resto entero de la división ( operador de modulo )](* [% Resto entero de la división ( operador de modulo )](V24_Ejercicio_Operadores_Aritmeticos_en_Java/src/ejemplo/Es_Par_o_Impar.java))
