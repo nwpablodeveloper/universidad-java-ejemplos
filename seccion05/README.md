@@ -22,12 +22,16 @@ Nota: si a la deracha del operador de igualdad lo primero que nos encontramos
 es una cadena, el resto va a ser todo cadena de texto y no calculos. 
 
 * [Operador de igualdad](V25_Ejercicio_Operadores_de_Asignacion_en_java/src/operadores/Igualdad.java)
-( = )Operador de igualdad
+* ( = )Operador de igualdad
 * [Operador de composición](V25_Ejercicio_Operadores_de_Asignacion_en_java/src/operadores/Composicion.java)
-( += )
-( -= )
-( *= )
-( /= )
-( %= )
+* ( += )
+* ( -= )
+* ( *= )
+* ( /= )
+* ( %= )
 
-[V26 Ejercicio Operadores Unarios en Java]()
+[V26 Ejercicio Operadores Unarios en ]()
+* [Operador de cambio de signo](V26_Ejercicio_Operadores_Unarios_en_Java/src/Operadores_Unarios/Operador_Cambio_de_Signo.java)
+* [Operador de negación](V26_Ejercicio_Operadores_Unarios_en_Java/src/Operadores_Unarios/Operador_de_Negacion.java)
+* [Operador de Preincremento](V26_Ejercicio_Operadores_Unarios_en_Java/src/Operadores_Unarios/Operador_de_Preincremento.java)
+* [Operador de Postincremento](V26_Ejercicio_Operadores_Unarios_en_Java/src/Operadores_Unarios/Operador_de_Postincremento.java)
