@@ -8,7 +8,7 @@
 * \- Resta
 * \* Mulitplicación
 * \/ División
-* [% Resto entero de la división " operador de modulo" Saber si un número es par](V25_Ejercicio_Operadores_de_Asignacion_en_java/src/operadores)
+* [% Resto entero de la división " operador de modulo" Saber si un número es par](V24_Ejercicio_Operadores_Aritmeticos_en_Java/src/ejemplo/Es_Par_o_Impar.java)
 
 [V25 Ejercicio Operadore de asignación en Java]()
 El operador de asignación va a evaluar todo lo que esta a su derecha ( 
