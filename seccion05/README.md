@@ -52,5 +52,9 @@ es una cadena, el resto va a ser todo cadena de texto y no calculos.
 * ( >= ) Mayor o igual que...
 * [Ejercicio saber si una persona es mayor de edad](V28_Ejercicio_Operadores_Ralacionales/src/Ejercicio/Ejercicio_Edad_Persona.java)
 
-[V29 Ejercicio Operadores Condicionales en Java]()
+[V29 Ejercicio Operadores Condicionales en Java](V29_Ejercicio_Operadores_Condicionales_en_Java/src/Operadores_Condicionales)
+* ( && ) [AND](V29_Ejercicio_Operadores_Condicionales_en_Java/src/Operadores_Condicionales/Operador_Condicional_AND.java)
+    - Las dos comparaciones se tienen que cumplir para que devuelva TRUE
+* ( \|\| ) [OR](V29_Ejercicio_Operadores_Condicionales_en_Java/src/Operadores_Condicionales/Operador_Condicional_OR.java)
+    - Con que se cumpla solo 1 condición devuelve TRUE
 
