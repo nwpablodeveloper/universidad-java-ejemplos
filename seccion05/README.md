@@ -37,6 +37,20 @@ es una cadena, el resto va a ser todo cadena de texto y no calculos.
 * [Operador de Preincremento](V26_Ejercicio_Operadores_Unarios_en_Java/src/Operadores_Unarios/Operador_de_Preincremento.java)
 * [Operador de Postincremento](V26_Ejercicio_Operadores_Unarios_en_Java/src/Operadores_Unarios/Operador_de_Postincremento.java)
 
-[V27 Operadores de Igualdad y Relacionales](V27_Ejercicio_Operadores_de_Igualdad_y_Relacionales/src/Operadores)
+[V27 Ejercicio Operadores de Igualdad y Relacionales](V27_Ejercicio_Operadores_de_Igualdad_y_Relacionales/src/Operadores)
 * [Operador de igualdad y desigualdad](V27_Ejercicio_Operadores_de_Igualdad_y_Relacionales/src/Operadores/Operador_Igualdad_y_Desigualdad.java)
+* ( == )
 * [Operadro de Igualdad en cadenas EQUALS](V27_Ejercicio_Operadores_de_Igualdad_y_Relacionales/src/Operadores/Igualdad_cadenas_equals.java)
+```Java
+    var resp = cadena1.equals(cadena2);
+```
+
+[V28 Ejercicio Operadores Relacionales](V28_ejercicio_operadores_ralacionales/V28_Ejercicio_Operadores_Ralacionales.java)
+* ( > ) Mayor que...
+* ( < ) Menor que...
+* ( <= ) Menor o igual que...
+* ( >= ) Mayor o igual que...
+* [Ejercicio saber si una persona es mayor de edad](V28_Ejercicio_Operadores_Ralacionales/src/Ejercicio/Ejercicio_Edad_Persona.java)
+
+[V29 Ejercicio Operadores Condicionales en Java]()
+
