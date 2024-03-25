@@ -58,3 +58,10 @@ es una cadena, el resto va a ser todo cadena de texto y no calculos.
 * ( \|\| ) [OR](V29_Ejercicio_Operadores_Condicionales_en_Java/src/Operadores_Condicionales/Operador_Condicional_OR.java)
     - Con que se cumpla solo 1 condición devuelve TRUE
 
+[V30 Ejercicio Operador Ternario en Java](V30_Ejercicio_Operador_Ternario/src/v30_ejercicio_operador_ternario)
+* Es recomendado usuarlo en operaciones sencillas
+```java
+    var resultado = ( expresión booleana ) ? "Se cumnple" : "No se cumple";
+```
+* [El número es par o impar?](V30_Ejercicio_Operador_Ternario/src/Ejercicio/Es_Par_o_Impar.java)
+
