@@ -68,4 +68,4 @@ es una cadena, el resto va a ser todo cadena de texto y no calculos.
 [V31 Ejercicio Precedencia de Operadores en Java](V31_Ejercicio_Precedencia_de_Operadores/src/v31_ejercicio_precedencia_de_operadores/V31_Ejercicio_Precedencia_de_Operadores.java)
 
 [V32 TAREA 1 Calcular el area y el perimetro de un cuadrado o rectangulos](V32_Tarea_Rectangulo/src/v32_tarea_rectangulo/V32_Tarea_Rectangulo.java)
-[V32 TAREA 2 Mostrar cual es el mayor de 2 numeros ingresados](V33_Tarea_El_Mayor_de_dos_numeros/src/v33_tarea_el_mayor_de_dos_numeros/V33_Tarea_El_Mayor_de_dos_numeros.java)
+[V32 TAREA 2 Mostrar cual es el mayor de 2 numeros ingresados](V32_Tarea_Rectangulo/src/v32_tarea_rectangulo/V32_Tarea_Rectangulo.java)
