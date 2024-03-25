@@ -37,6 +37,6 @@ es una cadena, el resto va a ser todo cadena de texto y no calculos.
 * [Operador de Preincremento](V26_Ejercicio_Operadores_Unarios_en_Java/src/Operadores_Unarios/Operador_de_Preincremento.java)
 * [Operador de Postincremento](V26_Ejercicio_Operadores_Unarios_en_Java/src/Operadores_Unarios/Operador_de_Postincremento.java)
 
-[V27 Operadores de Igualdad y Relacionales](V27_Operadores_de_Igualdad_y_Relacionales/src/Operadores)
-* [Operador de igualdad y desigualdad](V27_Operadores_de_Igualdad_y_Relacionales/src/Operadores/Operador_Igualdad_y_Desigualdad.java)
-* [Operadro de Igualdad en cadenas EQUALS](V27_Operadores_de_Igualdad_y_Relacionales/src/Operadores/Igualdad_cadenas_equals.java)
+[V27 Operadores de Igualdad y Relacionales](V27_Ejercicio_Operadores_de_Igualdad_y_Relacionales/src/Operadores)
+* [Operador de igualdad y desigualdad](V27_Ejercicio_Operadores_de_Igualdad_y_Relacionales/src/Operadores/Operador_Igualdad_y_Desigualdad.java)
+* [Operadro de Igualdad en cadenas EQUALS](V27_Ejercicio_Operadores_de_Igualdad_y_Relacionales/src/Operadores/Igualdad_cadenas_equals.java)
