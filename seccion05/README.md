@@ -58,10 +58,14 @@ es una cadena, el resto va a ser todo cadena de texto y no calculos.
 * ( \|\| ) [OR](V29_Ejercicio_Operadores_Condicionales_en_Java/src/Operadores_Condicionales/Operador_Condicional_OR.java)
     - Con que se cumpla solo 1 condición devuelve TRUE
 
-[V30 Ejercicio Operador Ternario en Java](V30_Ejercicio_Operador_Ternario/src/v30_ejercicio_operador_ternario)
+[V30 Ejercicio Operador Ternario en Java](V30_Ejercicio_Operador_Ternario/src/v30_ejercicio_operador_ternario/V30_Ejercicio_Operador_Ternario.java)
 * Es recomendado usuarlo en operaciones sencillas
 ```java
     var resultado = ( expresión booleana ) ? "Se cumnple" : "No se cumple";
 ```
 * [El número es par o impar?](V30_Ejercicio_Operador_Ternario/src/Ejercicio/Es_Par_o_Impar.java)
 
+[V31 Ejercicio Precedencia de Operadores en Java](V31_Ejercicio_Precedencia_de_Operadores/src/v31_ejercicio_precedencia_de_operadores/V31_Ejercicio_Precedencia_de_Operadores.java)
+
+[V32 TAREA 1 Calcular el area y el perimetro de un cuadrado o rectangulos](V32_Tarea_Rectangulo/src/v32_tarea_rectangulo/V32_Tarea_Rectangulo.java)
+[V32 TAREA 2 Mostrar cual es el mayor de 2 numeros ingresados](V33_Tarea_El_Mayor_de_dos_numeros/src/v33_tarea_el_mayor_de_dos_numeros/V33_Tarea_El_Mayor_de_dos_numeros.java)
