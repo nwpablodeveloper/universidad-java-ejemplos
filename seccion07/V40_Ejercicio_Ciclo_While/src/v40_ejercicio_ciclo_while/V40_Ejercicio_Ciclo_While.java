@@ -11,6 +11,7 @@ public class V40_Ejercicio_Ciclo_While {
         int repeticiones = Integer.parseInt(inputNum.nextLine());
         
         int contador = 1;
+        
         while( contador <= repeticiones ){
             System.out.println("contador = " + contador);
             contador++;
