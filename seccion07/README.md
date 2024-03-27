@@ -15,5 +15,5 @@ se va a seguir ejecutando mientras la condición se cumpla.
 - [PDF - Ciclo For](Apuntes/06-03-CicloFor-CFJ.pdf)
 
 [V43 Ejercicio Palabras Break y Continue en Java]()
-- BREAK va a roper el ciclo que se esta ejecutando por completo
-- CONTINUE va a dar por finalizado el ciclo actual y pasar al siguiente ciclo
+- [BREAK](V43_Ejercicio_Palabra_Break_Continue/src/Ejemplos/E01_Break.java) va a roper el ciclo que se esta ejecutando por completo
+- [CONTINUE](V43_Ejercicio_Palabra_Break_Continue/src/Ejemplos/E02_Continue.java) va a dar por finalizado el ciclo actual y pasar al siguiente ciclo
