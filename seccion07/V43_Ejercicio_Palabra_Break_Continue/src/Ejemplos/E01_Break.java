@@ -16,10 +16,27 @@ public class E01_Break {
 
         for (int i = 0; i <= repe; i++) {
             if (i == romper) {
+                System.out.println("El bucle se rompio en la posición nro.: " + romper);
                 break;
             }
             System.out.println("Contador = " + i);
         }
 
+        
+        System.out.println("");
+        /* 
+            En un bucle que se repite del 0 al 100 lo vamos a finalizar cuando
+            el contador llegue a 5
+        */
+        System.out.println("Romper ciclo en la 5ta repetición");
+        
+        int contador = 0;
+        while( contador <= 100){
+            if(contador == 5){
+                break;
+            }
+            System.out.println("contador = " + contador);
+            contador++;
+        }
     }
 }
