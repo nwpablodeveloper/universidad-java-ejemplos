@@ -8,7 +8,7 @@
 
 [V47 Objetos en Java](V47_Objetos_en_Java/src/clases)
 - Clase [Persona](V47_Objetos_en_Java/src/clases/Persona.java)
-- Creación de un objeto de[tipo Persona](V47_Objetos_en_Java/src/clases/PruebaPersona.java)
+- Creación de un objeto de [tipo Persona](V47_Objetos_en_Java/src/clases/PruebaPersona.java)
 
 [V48 Objetos en Java](V48_Objetos_en_Java/src/clases)
 - Creación de la clase [Persona](V48_Objetos_en_Java/src/clases/Persona.java)
