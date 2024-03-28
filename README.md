@@ -4,3 +4,4 @@
 #### [Sección 06 - Fundamentos Java: Sentencias de Control](seccion06)
 #### [Sección 07 - Fundamentos Java: Ciclos en Java](seccion07)
 #### [Sección 08 - Fundamentos Java: Creación de Clases en Java](seccion08)
+#### [Sección 09 - Fundamentos Java: Métodos en Java](seccion09)
