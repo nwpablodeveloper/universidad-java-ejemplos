@@ -1,5 +1,7 @@
 ### Sección 04 - Fundamentos Java: Tipos Primitivos
 - [PDF Variables](Apuntes/01-VariablesJava.pdf)
+- Si el tipo de dato es primitivo los mismo tienen un valor por DEFAULT
+- Si es un tipo de dato Object se inicia por DEFAULT con null
 
 <img src="Apuntes/tamaños-del-tipo-de-dato.png"
      alt="Markdown Monster icon"
