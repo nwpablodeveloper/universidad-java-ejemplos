@@ -1,5 +1,5 @@
 ### Sección 10 - Fundamentos Java: Alcance de vAriables en Java
-[PDF - Alcance de Variables](Apuntes/09-03-AlcanceVariables-CFJ.pdf)
+[PDF - Alcance de Variables](apuntes/09-03-AlcanceVariables-CFJ.pdf)
 
 [V56 Alcance de Variables en Java](V54_Constructores_en_Java/src/operaciones)
 - Las variables solo pueden ser utilizadas dentro del metodo que se declaro
