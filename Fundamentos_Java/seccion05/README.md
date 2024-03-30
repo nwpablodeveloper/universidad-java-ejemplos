@@ -70,3 +70,5 @@ es una cadena, el resto va a ser todo cadena de texto y no calculos.
 [V32 TAREA 1 Calcular el area y el perimetro de un cuadrado o rectangulos](V32_Tarea_Rectangulo/src/v32_tarea_rectangulo/V32_Tarea_Rectangulo.java)
 
 [V32 TAREA 2 Mostrar cual es el mayor de 2 numeros ingresados](V32_Tarea_Rectangulo/src/v32_tarea_rectangulo/V32_Tarea_Rectangulo.java)
+
+[Volver](../)
