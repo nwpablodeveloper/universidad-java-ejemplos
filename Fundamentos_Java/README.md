@@ -12,6 +12,7 @@
 * [Sección 13 - 12min - Uso de la Palabra RETURN y NULL en Java](seccion13)
 * [Sección 14 - 21min - Uso de la palabra THIS en java](seccion14)
 * [Sección 15 - 26min - Encapsulamiento en Java](seccion15)
-* [Sección  - min](seccion)
+* [Sección 16 - 29min - Contexto Estático en Java](seccion16)
+
 
 [Volver](../)
