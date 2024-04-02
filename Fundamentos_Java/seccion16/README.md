@@ -1,4 +1,4 @@
-### Sección 15 - Fundamentos Java: Encapsulamiento en Java
+### Sección 16 - Fundamentos Java: Encapsulamiento en Java
 
 [PDF - Contexto Estático](Apuntes/13-01-ContextoEstatico-CFJ.pdf)
 
