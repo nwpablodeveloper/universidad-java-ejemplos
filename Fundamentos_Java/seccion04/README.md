@@ -84,6 +84,7 @@ solo carácter de la siguiente manera
     char miCaracter = 97;
 ```
 [V20 Ejercicio: Tipos Primitivos tiopo Boolean](V20_Tipos_Primitivos_tipo_boolean/src/v20_tipos_primitivos_tipo_boolean/V20_Tipos_Primitivos_tipo_boolean.java)
+
 Estos datos tambien son conocidos como tipo bandera.
 Son muy utilizados en los algoritmos de nuestra app
 Los datos primitivos de tipo boolean solo pueden almacenar
@@ -93,7 +94,8 @@ Los datos primitivos de tipo boolean solo pueden almacenar
     boolean varBoolean2 = false;
 ```
 
-[V21 Ejercicio: Tipos Primitivos tiopo Boolean](V21_Ejercicio_Conversion_de_Tipos_Primitivos_en_Java_Parte_1/src/v21_ejercicio_conversion_de_tipos_primitivos_en_java_parte_1/V21_Ejercicio_Conversion_de_Tipos_Primitivos_en_Java_Parte_1.java)
+[V21 Ejercicio: Tipos Primitivos tipo Boolean](V21_Ejercicio_Conversion_de_Tipos_Primitivos_en_Java_Parte_1/src/v21_ejercicio_conversion_de_tipos_primitivos_en_java_parte_1/V21_Ejercicio_Conversion_de_Tipos_Primitivos_en_Java_Parte_1.java)
+
 Convertir de tipos de datos String a Integer o Double
 ```java
     var edad = Integer.parseInt("35");
@@ -101,8 +103,9 @@ Convertir de tipos de datos String a Integer o Double
 ```
 
 [V22 Ejercicio: Conversón de Tipos Primitivos en Java](V22_Ejercicio_Conversion_de_Tipos_Primitivos_en_Java/src/v22_ejercicio_conversion_de_tipos_primitivos_en_java/V22_Ejercicio_Conversion_de_Tipos_Primitivos_en_Java.java)
+
 Convertir de int a String
-Tomar un caracter de una cadena String y pasarolo a char
+Tomar un caracter de una cadena String y pasarlo a char
 
 ```java
     var edadString = String.valueOf(35);
