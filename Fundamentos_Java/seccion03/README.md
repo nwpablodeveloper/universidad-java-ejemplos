@@ -25,6 +25,7 @@
 * Ingreso de datos por el usuario utilizando la clase "Scanner"
 
 [V14 - Tarea fin de sección](V14-TAREA-Detalles-Libro/src/tarea/v14/detalles/libro/TAREAV14DetallesLibro.java)
+
 Se solicita incluir la siguiente información acerca de un libro:
 titulo y autor
 
