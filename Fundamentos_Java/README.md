@@ -13,6 +13,7 @@
 * [Sección 14 - 21min - Uso de la palabra THIS en java](seccion14)
 * [Sección 15 - 26min - Encapsulamiento en Java](seccion15)
 * [Sección 16 - 29min - Contexto Estático en Java](seccion16)
-* [Sección  - min ](seccion)
+* [Sección 17 - 57min - Herencia en Java](seccion17)
+<!--* [Sección  - min ](seccion)-->
 
 [Volver](../)
