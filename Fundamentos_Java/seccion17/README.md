@@ -1,4 +1,4 @@
-### Sección 16 - Fundamentos Java: Encapsulamiento en Java
+### Sección 17 - Fundamentos Java: Herencia en Java
 [PDF - Herencia Parte 1](Apuntes/14-01-Herencia-parte1-CFJ.pdf)
 
 [V70 Herancia en Java - Inheritance](V70_Herencia_en_Java_Inheritance/src/domain/Persona.java)
