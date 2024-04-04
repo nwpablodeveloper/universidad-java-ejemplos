@@ -29,7 +29,14 @@ Madre y Clase Padre al mismo tiempo.
 - [Clase hijo Cliente](V73_Herencia_en_Java/src/domain/Cliente.java)
 - [Creando Objetos](V73_Herencia_en_Java/src/test/TestHerencia.java)
 - Uso de la palabra Super
-- Como visulizar el 
+- Para visualizar la dirección de memoria del objeto creado por medio de una
+clase que tiene el toString(), debemos llamar al mismo con super.toString() en la
+clase padre para que llame al toString de la clase Object de Java
+[Uso en la clase padre](V73_Herencia_en_Java/src/domain/Persona.java)
+```java
+    // Lo usamos en la clase padre de nuestra app para que apunte a la clase Object de Java
+   super.toString()
+```
 
 [V74 Herencia en Java - Parte 4](V73_Herencia_en_Java/src)
 - Solución tarea
