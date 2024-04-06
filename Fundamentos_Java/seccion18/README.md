@@ -10,7 +10,7 @@
 
 [V77 Sobrecarga de Métodos](V77_Ejercicios_Sobrecarga_de_metodos/src)
 - [La sobrecarga de métodos](V77_Ejercicios_Sobrecarga_de_metodos/src/operaciones/Operaciones.java) 
-es cuando tenemos mas de 1 método con el mismo
+- Es cuando tenemos mas de 1 método con el mismo
 nombre pero el se diferencian entre ellos al recibir diferentes argumentos
 
 [Volver](../)
