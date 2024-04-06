@@ -15,6 +15,7 @@
 * [Sección 16 - 29min - Contexto Estático en Java](seccion16)
 * [Sección 17 - 57min - Herencia en Java](seccion17)
 * [Sección 18 - 22min - Sobrecarga de Constructores y Métodos en Java](seccion18)
+* [Sección 19 - 12min - Paquetes en Java](seccion19)
 <!--* [Sección  - min ](seccion)-->
 
 [Volver](../)
