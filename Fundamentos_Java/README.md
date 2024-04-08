@@ -18,6 +18,7 @@
 * [Sección 19 - 12min - Paquetes en Java](seccion19)
 * [Sección 20 - 15min - Uso de la palabra Final en Java](seccion20)
 * [Sección 21 - 32min - Manejo de Arreglos en Java](seccion21)
+* [Sección 22 - 29min - Menejo de Matrices en Java](seccion22)
 <!--* [Sección  - min - ](seccion)-->
 
 [Volver](../)
