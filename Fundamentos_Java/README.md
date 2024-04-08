@@ -16,7 +16,8 @@
 * [Sección 17 - 57min - Herencia en Java](seccion17)
 * [Sección 18 - 22min - Sobrecarga de Constructores y Métodos en Java](seccion18)
 * [Sección 19 - 12min - Paquetes en Java](seccion19)
-* [Sección 20 - 15min - Uso de la palabra Final en Java](seccion15)
-<!--* [Sección  - min ](seccion)-->
+* [Sección 20 - 15min - Uso de la palabra Final en Java](seccion20)
+* [Sección 21 - 32min - Manejo de Arreglos en Java](seccion21)
+<!--* [Sección  - min - ](seccion)-->
 
 [Volver](../)
