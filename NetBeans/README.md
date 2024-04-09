@@ -1,4 +1,5 @@
 |Acción| Combinación|
+|------|------------|
 |Dar formato al código:    | Alt + Shift + F|
 |Duplicar linea:           | Ctrl + Shift + flecha direccional|
 |Mover linea:              | Ctrl + Alt + flecha direccional|
