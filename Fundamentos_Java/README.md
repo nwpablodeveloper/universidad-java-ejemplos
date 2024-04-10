@@ -19,6 +19,7 @@
 * [Sección 20 - 15min - Uso de la palabra Final en Java](seccion20)
 * [Sección 21 - 32min - Manejo de Arreglos en Java](seccion21)
 * [Sección 22 - 29min - Menejo de Matrices en Java](seccion22)
+* [Sección 23 - 43min - Diseño de Clases en Java](seccion23)
 <!--* [Sección  - min - ](seccion)-->
 
 [Volver](../)

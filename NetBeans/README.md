@@ -3,6 +3,7 @@
 |Dar formato al código:                                 | Alt + Shift + F|
 |Duplicar linea:                                        | Ctrl + Shift + flecha direccional|
 |Mover linea:                                           | Ctrl + Alt + flecha direccional|
+|Borrar línea:                                          | Ctrl + E |
 |Ejecutar clase main:                                   | Shift + F6|
 |Ejecutar con Debug ( Crear punto de rotura )           | Ctrl + Shift + F5|
 |   - F8 Ejecutar siguiente linea                       | |
