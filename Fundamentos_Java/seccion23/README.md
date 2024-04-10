@@ -1,6 +1,7 @@
-### Sección 21 - Fundamentos Java: Manejo de Arreglos en Java
+### Sección 23 - Fundamentos Java: Diseño de Clases en Java
 
 [PDF - Lescción Diseño de Clases](Apuntes/CFJ-A-Leccion-DiseñoClasesJava.pdf)
+
 [PDF - Unified Modeling Language](Apuntes/UML-Unified-Modeling-Language.pdf)
 
 [V92 Lección: Diseño de Clases en Java](Apuntes)
