@@ -1,0 +1,72 @@
+package com.gm.mundopc;
+
+public class Computadora {
+
+    private final int idComputadora;
+    private String nombre;
+    private Monitor monitor;
+    private Teclado teclado;
+    private Raton raton;
+    private static int contadorComputadoras;
+
+    public Computadora() {
+        this.idComputadora = ++Computadora.contadorComputadoras;
+    }
+
+    public Computadora(String nombre, Monitor monitor, Teclado teclado, Raton raton) {
+        this();
+        this.nombre = nombre;
+        this.monitor = monitor;
+        this.teclado = teclado;
+        this.raton = raton;
+    }
+    
+    public int getIdComputadora(){
+        return this.idComputadora;
+    }
+
+    public String getNombre() {
+        return this.nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Monitor getMonitor() {
+        return this.monitor;
+    }
+
+    public void setMonitor(Monitor monitor) {
+        this.monitor = monitor;
+    }
+
+    public Teclado getTeclado() {
+        return this.teclado;
+    }
+
+    public void setTeclado(Teclado teclado) {
+        this.teclado = teclado;
+    }
+
+    public Raton getRaton() {
+        return this.raton;
+    }
+
+    public void setRaton(Raton raton) {
+        this.raton = raton;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("idCompu: ").append(idComputadora);
+        sb.append("\nNombre: ").append(nombre);
+        sb.append("\nMonitor: ").append(monitor);
+        sb.append("\nTeclado: ").append(teclado);
+        sb.append("\nRaton: ").append(raton);
+        return sb.toString();
+    }
+
+    
+}
