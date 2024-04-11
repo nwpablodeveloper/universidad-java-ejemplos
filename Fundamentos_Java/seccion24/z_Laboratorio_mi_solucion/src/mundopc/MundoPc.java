@@ -1,9 +1,6 @@
 package mundopc;
 
-import com.gm.mundopc.Computadora;
-import com.gm.mundopc.Monitor;
-import com.gm.mundopc.Raton;
-import com.gm.mundopc.Teclado;
+import com.gm.mundopc.*;
 
 public class MundoPc {
     public static void main(String[] args) {
@@ -17,15 +14,16 @@ public class MundoPc {
         Teclado teclado2 = new Teclado("Bluetooth", "Genius");
         
         Computadora compu1 = new Computadora("básica", monitor1, teclado1, raton1);
-        System.out.println(compu1);
-        
-        System.out.println("");
-        
         Computadora compu2 = new Computadora("Escritorio", monitor2, teclado2, raton2);
-        System.out.println("compu2 = " + compu2);
+        Computadora compu3 = new Computadora("Notebook", monitor1, teclado2, raton1);
         
         
-
+        Orden orden1 = new Orden();
+        orden1.agregarComputadora(compu1);
+        orden1.agregarComputadora(compu2);
+        orden1.agregarComputadora(compu3);
+        orden1.agregarComputadora(compu3);
         
+        orden1.mostrarOrden();
     }
 }
