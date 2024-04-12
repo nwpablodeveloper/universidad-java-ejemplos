@@ -1,6 +1,6 @@
-### Sección 25 - Fundamentos Java: Ciclos en Java
+### Sección 25 - Programación con Java: Argumentos Varíables en Java (varargs)
 
-[PDF - Argumentos - Variables](Apuntes/01-01-ArgumentosVariables-CPJ.pdf)
+[PDF - Argumentos variables](Apuntes/01-01-ArgumentosVariables-CPJ.pdf)
 
 [V105 Ejercicio: Argumentos Variables en Java - varargs]()
 - El argumento variable nos indicas que vamos a poder recibir una indifinida
