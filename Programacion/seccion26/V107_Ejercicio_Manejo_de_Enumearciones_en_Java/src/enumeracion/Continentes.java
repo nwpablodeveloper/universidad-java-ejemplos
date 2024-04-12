@@ -9,7 +9,8 @@ public enum Continentes {
     
     private final int paises;
 
-    private Continentes(int paises) {
+    // Defino el constructor 
+    Continentes(int paises) {
         this.paises = paises;
     }
     
