@@ -2,7 +2,7 @@
 
 [PDF - Argumentos variables](Apuntes/01-01-ArgumentosVariables-CPJ.pdf)
 
-[V105 Ejercicio: Argumentos Variables en Java - varargs]()
+[V105 Ejercicio: Argumentos Variables en Java - varargs](V105_Ejercicio_Argumentos_Variables_en_Java/src/test/TestArgumentosVariables.java)
 - El argumento variable nos indicas que vamos a poder recibir una indifinida
 cantidad de parametros del mismo tipo, el mismo tiene que ser el ultimo 
 argumento del metodo.
