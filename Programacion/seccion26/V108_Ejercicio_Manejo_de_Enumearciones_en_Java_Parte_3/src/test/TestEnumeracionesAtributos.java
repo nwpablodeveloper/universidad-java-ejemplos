@@ -8,5 +8,8 @@ public class TestEnumeracionesAtributos {
         System.out.println("4to Continente: " + Continentes.AMERICA);
         System.out.println("Tiene: " + Continentes.AMERICA.getPaises() + " paises" );
         
+        Continentes cont = Continentes.AFRICA;
+        System.out.println("cont = " + cont);
+        
     }
 }
