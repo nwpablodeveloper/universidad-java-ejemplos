@@ -1,4 +1,4 @@
-### Sección 11 - Fundamentos Java: Alcance de vAriables en Java
+### Sección 11 - Fundamentos Java: Alcance de Variables en Java
 [PDF - Alcance de Variables](apuntes/09-03-AlcanceVariables-CFJ.pdf)
 
 [V56 Alcance de Variables en Java](V56_Alcance_de_Variables_en_Java/src/operaciones/PruebaAritmetica.java)
