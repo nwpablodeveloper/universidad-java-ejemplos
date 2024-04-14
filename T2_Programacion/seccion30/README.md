@@ -1,6 +1,6 @@
 ### Sección 30 - Programación con Java: Modificadores de Acceso
 
-[PDF - Modificadores de Acceso](06-01-ModificadoresAcceso-public-CFJ.pdf)
+[PDF - Modificadores de Acceso](Apuntes/06-01-ModificadoresAcceso-public-CFJ.pdf)
 - PUBLIC es el menos restringido, se puede acceder desde cualquier paquete
 - PROTECTED Pude ser accedido desde el mismo paquete o desde clases HIjas/Padres
 - DEFAULT O PACKAGE puden ser utilizadas dentro del mismo paquete
