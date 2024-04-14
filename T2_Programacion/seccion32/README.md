@@ -1,4 +1,4 @@
-### Sección 30 - Programación con Java: Modificadores de Acceso
+### Sección 32 - Programación con Java: Polimorfismo
 
 [PDF - Polimorfismo](Apuntes/08-01-Polimorfismo-CPJ.pdf)
 - Multiple comportamientos 

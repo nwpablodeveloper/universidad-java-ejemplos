@@ -1,4 +1,4 @@
-### Sección 30 - Programación con Java: Modificadores de Acceso
+### Sección 31 - Programación con Java: Sobreescritura de Métodos
 
 [PDF - Sobreescritura de Métodos](Apuntes/07-01-SobreescrituraMetodos-claseEmpleado-CPJ.pdf)
 
