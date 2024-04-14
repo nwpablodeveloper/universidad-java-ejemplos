@@ -1,6 +1,6 @@
 ### Sección 30 - Programación con Java: Modificadores de Acceso
 
-[PDF - Polimorfismo](Apuntes/07-01-SobreescrituraMetodos-claseEmpleado-CPJ.pdf)
+[PDF - Polimorfismo](Apuntes/08-01-Polimorfismo-CPJ.pdf)
 - Multiple comportamientos 
 
 [V120 Polimorfismo](V120_Polimorfismo/src)
