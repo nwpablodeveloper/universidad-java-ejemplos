@@ -6,5 +6,6 @@
 * [Sección 29 - 08min - Autoboxing y Unboxing](seccion29)
 * [Sección 30 - 33min - Modificadores de Acceso](seccion30)
 * [Sección 31 - 13min - Sobreescritura de Métodos](seccion31)
+* [Sección 32 - 22min - Polimorfismo](seccion32)
 <!--* [Sección  - min - ](seccion)-->
 [Volver](../)
