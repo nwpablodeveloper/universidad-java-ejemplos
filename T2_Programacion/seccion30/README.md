@@ -1,4 +1,4 @@
-### Sección 30 - Programación con Java: Modificadores de Acceso
+### Sección 33 - Programación con Java: Palabra Instanceof
 
 [PDF - Modificadores de Acceso](Apuntes/06-01-ModificadoresAcceso-public-CFJ.pdf)
 - PUBLIC es el menos restringido, se puede acceder desde cualquier paquete
