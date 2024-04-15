@@ -10,5 +10,6 @@
 * [Sección 33 - 19min - Palabra instance of](seccion33)
 * [Sección 34 - 20min - Conversión de Objetos](seccion34)
 * [Sección 35 - 19min - Clase Object - Equals, HashCode, toString](seccion35)
+* [Sección 36 - 17min - Clase Abstractas](seccion36)
 
 [Volver](../)
