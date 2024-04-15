@@ -1,5 +1,10 @@
 package domain;
 
+/*
+    Clase abstracta por que tiene un método abstracto
+    Si tenemos clases padre abstractas procederemos a trabajar con sus clases
+    hijas
+*/
 public abstract class FiguraGeometrica {
     
     protected String tipoFigura;
@@ -8,6 +13,7 @@ public abstract class FiguraGeometrica {
         this.tipoFigura = tipoFigura;
     }
     
+    // Implementación de un método Abstracto
     public abstract void dibujar();
 
     public String getTipoFigura() {
