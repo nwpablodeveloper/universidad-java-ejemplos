@@ -20,7 +20,8 @@ de las clases
     } 
 ```
 [V132 Menejo de Interfaces - Parte 3](V132_Manejo_de_Interfaces_Parte_3/src/accesodatos)
-- Implementar la Interface en una [Clase](V132_Manejo_de_Interfaces_Parte_3/src/accesodatos/ImplementacionMySql.java)
+- Implementar la [Interface](V132_Manejo_de_Interfaces_Parte_3/src/accesodatos/IAccesoDatos.java)
+en una [Clase](V132_Manejo_de_Interfaces_Parte_3/src/accesodatos/ImplementacionMySql.java)
 - Declarar los métodos en común con la Interface creada. Al crear una clase 
 con una Interface estamos obligados a consumir todos los métodos abstractos de
 la Interface, caso contrario deberiamos convertir la Clase actual en Abstracta
