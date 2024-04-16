@@ -11,6 +11,6 @@
 * [Sección 34 - 20min - Conversión de Objetos](seccion34)
 * [Sección 35 - 19min - Clase Object - Equals, HashCode, toString](seccion35)
 * [Sección 36 - 17min - Clase Abstractas](seccion36)
-* [Sección 36 - 25min - Manejo de Interfaces](seccion37)
+* [Sección 37 - 25min - Manejo de Interfaces](seccion37)
 
 [Volver](../)
