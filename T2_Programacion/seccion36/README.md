@@ -1,4 +1,4 @@
-### Sección 36 - Clases Abstractas
+### Sección 36 - Programación con Java: Clases Abstractas
 
 [PDF - Clase Abstractas](Apuntes/CPJ-A-Leccion-ClasesAbstractas.pdf)
 
