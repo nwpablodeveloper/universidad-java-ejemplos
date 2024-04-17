@@ -12,5 +12,6 @@
 * [Sección 35 - 19min - Clase Object - Equals, HashCode, toString](seccion35)
 * [Sección 36 - 17min - Clase Abstractas](seccion36)
 * [Sección 37 - 25min - Manejo de Interfaces](seccion37)
+* [Sección 38 - 13min - Manejo de JavaBeans](seccion38)
 
 [Volver](../)
