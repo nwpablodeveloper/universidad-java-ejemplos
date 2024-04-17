@@ -17,6 +17,9 @@ public class TestColecciones {
         miLista.add("lunes");
         miLista.add("jueves");
         miLista.add("miercoles");
+        miLista.add("miercoles");
+        miLista.add("miercoles");
+        miLista.add("miercoles");
 
         // Interar con forEach
         for (Object elemetno : miLista) {
