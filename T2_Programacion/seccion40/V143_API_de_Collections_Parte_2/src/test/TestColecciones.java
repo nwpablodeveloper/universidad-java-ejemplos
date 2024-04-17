@@ -28,10 +28,7 @@ public class TestColecciones {
         // Interar con función flecha
         miLista.forEach(elemento -> {
             System.out.println("elemento:  " + elemento);
-        }
-    
-
-);
+        });
 
     }
 }
