@@ -18,6 +18,10 @@ public class TestExcepciones {
             // Llamamos al método para que nos muestre la pila de errores
             System.out.println("Ocurrio un error:\n");
             error.printStackTrace(System.out);
+            
+            /*
+                Este es un error de un Tipo de Class RunTimeException
+            */
         }
     }
 }
