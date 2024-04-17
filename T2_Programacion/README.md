@@ -13,6 +13,6 @@
 * [Sección 36 - 17min - Clase Abstractas](seccion36)
 * [Sección 37 - 25min - Manejo de Interfaces](seccion37)
 * [Sección 38 - 13min - Manejo de JavaBeans](seccion38)
-* [Sección 39 - 13min - Manejos de Excepciones](seccion39)
+* [Sección 39 - 27min - Manejos de Excepciones](seccion39)
 
 [Volver](../)

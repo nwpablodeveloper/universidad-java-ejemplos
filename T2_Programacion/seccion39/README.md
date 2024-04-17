@@ -20,7 +20,7 @@
     }
 ```
 
-[V137 - Manejo de Excepciones - Parte 2](137_Manejo_de_Excepciones_Parte_2/src/test/TestExcepciones.java)
+[V137 - Manejo de Excepciones - Parte 2](V137_Manejo_de_Excepciones_Parte_2/src/test/TestExcepciones.java)
 - La clase Exception hereda de la clase padre de todas las Excepciones llamada
 Class Throwable  ( pero no la vamos a usar )
 - La Class Exception va a ser nuestra clase Padre que utilizaremos en nuestras App
