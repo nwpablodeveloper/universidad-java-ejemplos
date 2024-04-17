@@ -1,6 +1,9 @@
 package test;
 
+import static aritmetica.Aritmetica.division;
+
 public class TestExcepciones {
+  
 
     public static void main(String[] args) {
 
@@ -10,7 +13,7 @@ public class TestExcepciones {
             detener de forma abrupta si el error no es capturado
         */
         int resultado;
-        resultado = 10 / 0;
+        resultado = division(5, 0);
         System.out.println("resultado = " + resultado);
 
     }
