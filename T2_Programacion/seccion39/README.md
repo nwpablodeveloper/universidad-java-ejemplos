@@ -25,7 +25,7 @@
 Class Throwable  ( pero no la vamos a usar )
 - La Class Exception va a ser nuestra clase Padre que utilizaremos en nuestras App
 - RunTimeException es una clase ( clase hija Class Exception )que nos muestra el error en tiempo de ejecución,
-es necesario atraparla con un Try/Catch
+NO es necesario atraparla con un Try/Catch
 - NullPointerException ( otra clase hija ), se va a disparar en momento de ejecución
 cuando una variable quiera acceder a un atributo o método y no este apuntando a
 ningun Objeto valido ( Variable Null ).
