@@ -15,6 +15,7 @@
 * [Sección 38 - 13min - Manejo de JavaBeans](seccion38)
 * [Sección 39 - 27min - Manejos de Excepciones](seccion39)
 * [Sección 40 - 26min - API de Colecciones](seccion40)
-* [Sección 41 - 23min - Manejo de Generics](seccion41)
+* [Sección 41 - 26min - Manejo de Generics](seccion41)
+* [Sección 42 - 25min - Manejo de Archivos .txt](seccion42)
 
 [Volver](../)
