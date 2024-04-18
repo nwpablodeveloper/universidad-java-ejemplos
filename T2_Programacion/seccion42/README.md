@@ -20,7 +20,7 @@ import java.io.File
 [V153 Manejo de Archivos - Parte 4]()
 - Anexar info al archivo
 
-[V154 Manejo de Archivos - Parte 5]()
+[V154 Manejo de Archivos - Parte 5](V154_Manejos_de_Archivos_Parte_5/src/manejoarchivos/ManejoArchivos.java)
 - Tipo BufferReader para leer lienas completas de un archivo
 
 
