@@ -16,11 +16,17 @@ public class TestMap {
         miMap.put(17, "Elemento en llave 17");
         miMap.put("Canigo", "Elemento en llave \"Canigo\"");
         
-        // Recuperar un valor del mapa indicando la llave
-        System.out.println(miMap.get("nombre"));
+        /*
+            Recuperar un valor del mapa indicando la llave, el HasMap() regresa
+            un dato de Tipo Objecto
+        */
+        String elemento  = (String)miMap.get("nombre");
         
         // Recuperar todo el mapa
+        System.out.println("Imprimir todas las llaves");
         imprimir(miMap.keySet());
+        
+        System.out.println("\nImprimir todas los valores");
         imprimir(miMap.values());
     }
     
