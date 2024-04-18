@@ -1,4 +1,4 @@
-package majoarchivos;
+package manejoarchivos;
 
 import java.io.File;
 import java.io.FileNotFoundException;
