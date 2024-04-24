@@ -24,6 +24,14 @@ public class CPJLaboratorioFinal {
             System.out.println("Su eleccion fue: " + opcion);
 
         } while (opcion <= -1 || opcion > 4);
+        
+        switch (opcion) {
+            case 2:
+                
+                break;
+            default:
+                throw new AssertionError();
+        }
 
     }
 }

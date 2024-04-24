@@ -2,14 +2,18 @@ package mx.com.gm.peliculas.datos;
 
 import java.util.List;
 import mx.com.gm.peliculas.domain.Pelicula;
+import mx.com.gm.peliculas.excepciones.AccesoDatosEx;
+import mx.com.gm.peliculas.excepciones.EscrituraDatosEx;
+import mx.com.gm.peliculas.excepciones.LecturaDatosEx;
 
 public interface IAccesoDatos {
     
-    void crear(String nombreArchivo); 
-    boolean existe(String nombreArchivo);
-    List<Pelicula> listar(String nombre);
-    void escribir(Pelicula pelicula, String nombreArchivo, boolean anexar);
-    String buscar(String nombreArchivo, String buscar);
-    void borrar(String nombreArchivo);
+    boolean existe(String nombreRecurso) throws AccesoDatosEx;
+    List<Pelicula> listar(String nombreRecurso) throws LecturaDatosEx;
+    void escribir(Pelicula pelicula, String nombreRecurso, boolean anexar) throws EscrituraDatosEx;
+    String buscar(String nombreRecurso, String buscar)throws LecturaDatosEx;
+    void crear(String nombreRecurso) throws AccesoDatosEx; 
+    void borrar(String nombreRecuros) throws AccesoDatosEx;
+    
 
 }

@@ -1,24 +1,10 @@
 package mx.com.gm.peliculas.negocio;
 
-public class CatalogoPeliculasImpl implements ICatalogoPeliculas{
+import java.util.List;
+import mx.com.gm.peliculas.datos.IAccesoDatos;
+import mx.com.gm.peliculas.domain.Pelicula;
+
+public class CatalogoPeliculasImpl implements IAccesoDatos{
     
-    @Override
-    public void agregarPelicula(String nombrePelicula, String nombreArchivo){
-    
-    }
-    
-    @Override
-    public void listarPeliculas(String nombreArchivo){
-    }
-    
-    @Override
-    public void buscarPelicula(String nombreArchivo, String buscar){
-        
-    }
-    
-    @Override
-    public void iniciarArchivo(String nombreArchivo){
-        
-    }
     
 }
