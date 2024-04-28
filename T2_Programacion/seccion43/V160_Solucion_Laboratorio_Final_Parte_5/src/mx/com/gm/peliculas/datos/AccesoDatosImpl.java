@@ -54,7 +54,31 @@ public class AccesoDatosImpl implements IAccesoDatos {
 
     @Override
     public String buscar(String nombreRecurso, String buscar) throws LecturaDatosEx {
-        return "kj";
+        var archivo = new File(nombreRecurso);
+        String resultado = null;
+        
+        try {
+            var entrada = new BufferedReader(new FileReader(archivo));
+            String linea = null;
+            linea = entrada.readLine();
+            int indice = 1;
+            while( linea != null ){
+                if(buscar != null && buscar.equals(linea)){
+                    resultado = "Pelicula " + linea + "Encontrada en el indice: "+ indice;
+                    break;
+                }
+                linea = entrada.readLine();
+                indice++;
+            }
+        } catch (FileNotFoundException ex) {
+            ex.printStackTrace();
+            throw new LecturaDatosEx("Error al buscar ");
+        } catch (IOException ex) {
+            throw new LecturaDatosEx("Error al buscar ");
+        }
+        
+            
+        return resultado;
     }
 
     @Override
