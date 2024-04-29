@@ -70,6 +70,7 @@ public class AccesoDatosImpl implements IAccesoDatos {
                 linea = entrada.readLine();
                 indice++;
             }
+            entrada.close();
         } catch (FileNotFoundException ex) {
             ex.printStackTrace();
             throw new LecturaDatosEx("Error al buscar ");
