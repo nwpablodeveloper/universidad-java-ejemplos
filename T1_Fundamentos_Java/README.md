@@ -21,6 +21,5 @@
 * [Sección 22 - 29min - Menejo de Matrices en Java](seccion22)
 * [Sección 23 - 43min - Diseño de Clases en Java](seccion23)
 * [Sección 24 - 43min - Laboratorio Final y Conclusión del Curso](seccion24)
-<!--* [Sección  - min - ](seccion)-->
 
 [Volver](../)
