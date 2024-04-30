@@ -7,6 +7,9 @@ import mx.com.gm.peliculas.negocio.ICatalogoPeliculas;
 public class CatalogoPeliculasPresentacion {
     public static void main(String[] args) {
         
+        System.out.println(434/60);
+        System.out.println(434%60);
+        
         var opcion = -1;
         var scanner = new Scanner(System.in);
         ICatalogoPeliculas catalogo = new CatalogoPeliculasImpl();
