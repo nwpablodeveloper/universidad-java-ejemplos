@@ -33,9 +33,9 @@ public class CatalogoPeliculasImpl implements ICatalogoPeliculas {
         try {
             var peliculas = this.datos.listar(NOMBRE_RECURSO);
             System.out.println("peliculas = " + peliculas);
-            //for(Pelicula pelicula: peliculas){
-              //  System.out.println("Pelicula: " + pelicula);
-            //}
+            for(Pelicula pelicula: peliculas){
+                System.out.println("Pelicula: " + pelicula);
+            }
         } catch (AccesoDatosEx ex) {
             System.out.println("Error al listar las peliculase");
             ex.printStackTrace(System.out);
