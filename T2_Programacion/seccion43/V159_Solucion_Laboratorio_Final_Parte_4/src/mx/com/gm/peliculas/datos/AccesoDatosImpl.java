@@ -27,6 +27,7 @@ public class AccesoDatosImpl implements IAccesoDatos {
             while( linea != null ){
                 var pelicula = new Pelicula(linea);
                 listaPeliculas.add(pelicula);
+                linea = entrada.readLine();
             }
             
         } catch (FileNotFoundException ex) {
