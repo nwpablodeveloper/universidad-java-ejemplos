@@ -27,7 +27,17 @@
 [V170 Sentencias DML en MySql - parte 1]()
 
 * UPDATE - Actualiza el registro o dato de la tabla
+```sql
+    UPDATE nombreSchem.table SET
+    nombreCampo1 = 'valor 1',
+    nombreCampo2 = 'valor 2',
+    nombreCampo3 = 'valor 3',
+```
 
 * DELETE - Elimina
+```sql
+DELETE FROM personas
+WHERE id_campoIdKey = 12;
+```
 
 [Volver](../)
