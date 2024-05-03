@@ -4,12 +4,12 @@
 
 [V168 Ejercicio: Instalacion de MySql 8.x](https://dev.mysql.com/downloads/mysql/)
 
-[V169 Ejercicio: Creación Base de Datos con MySql 8.x]()
+[V169 Ejercicio: Creación Base de Datos con MySql 8.x](V169_Creacion_Base_de_Datos)
 ```sql
     CREATE SCHEMA nombreDb;
 ```
 
-[V170 Sentencias DML en MySql - parte 1]()
+[V170 Sentencias DML en MySql - parte 1](V170_Sentencia_DML_en_MySql_Parte_1)
 ( SQL ) Structured Query Language
 ( DML ) Data Manipulation Languaje
  
@@ -24,7 +24,7 @@
     VALUES ('contenido1', 'contenido2')
 ```
 
-[V170 Sentencias DML en MySql - parte 1]()
+[V171 Sentencias DML en MySql - parte 2](V171_Sentencia_DML_en_MySql_Parte_2)
 
 * UPDATE - Actualiza el registro o dato de la tabla
 ```sql
