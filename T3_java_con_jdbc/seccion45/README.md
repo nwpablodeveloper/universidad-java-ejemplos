@@ -1,62 +1,26 @@
-### Sección 43 - Programación con Java: Laboratorio Final y conclusión de la sección
+### Sección 45 - Java con JDBC: Introducción a JDBC
 
-[PDF - Lecciòn laboratorio - Programaciòn en Java](Apuntes/CPJ-A-Leccion-LaboratorioFinal.pdf)
+[PDF - Introducción a JDBC](Apuntes/02-01-IntroduccionJDBC-JDBC.pdf)
 
-[V168 Ejercicio: Instalacion de MySql 8.x](https://dev.mysql.com/downloads/mysql/)
-
-[V169 Ejercicio: Creación Base de Datos con MySql 8.x](V169_Creacion_Base_de_Datos)
-
-   * [CREATE SCHEMA - Crear DB](V169_Creacion_Base_de_Datos/crear_schema.sql)
-
-```sql
-    CREATE SCHEMA nombreDb;
+[V172 Introducción a JDBC]()
+* Creación del proyecto con Java With Maven
+* Click derecho al proyecto -> Clean and build
+* Vincular la libreria de MySql
+    - Proyect Files -> 
+    - pom.xml
+    - Agregar dependencias
+```xml
+    <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.19</version>
+        </dependency>
+    </dependencies>
+    
 ```
+    - Click derecho al proyecto -> Clean and build
 
-   * [CREATE TABLE - Crear tabla en la DB](V169_Creacion_Base_de_Datos/crear_tabla.sql)
-
-```sql
-    CREATE TABLE nombreDb.nombreTabla (
-        `id_campoKey` INT NOT NULL AUTO_INCREMENT,
-        `campo1` VARCHAR(45) NULL,
-        `campo2` VARCHAR(45) NULL,
-        `campo3` VARCHAR(45) NULL,
-        `campo4` VARCHAR(45) NULL,
-        PRIMARY KEY (`id_persona`));
-```
-
-[V170 Sentencias DML en MySql - parte 1](V170_Sentencia_DML_en_MySql_Parte_1)
-( SQL ) Structured Query Language
-( DML ) Data Manipulation Languaje    
-
-   * [INSERT INTO - Insertar datos en la tabla](V170_Sentencia_DML_en_MySql_Parte_1/insertar.sql)
-
-```sql
-    INSERT INTO nombreSchema.nombreTabla ( campo1, campo2 )
-    VALUES ('contenido1', 'contenido2')
-```
-
-   * [SELECT * FROM - Seleccionar una tabla](V170_Sentencia_DML_en_MySql_Parte_1/seleccionar.sql)
-
-```sql
-    SELECT * FROM nombreSchema.tabla
-```
-
-[V171 Sentencias DML en MySql - parte 2](V171_Sentencia_DML_en_MySql_Parte_2)
-
-   * [UPDATE - Actualizar registro de la tabla](V171_Sentencia_DML_en_MySql_Parte_2/update.sql)
-
-```sql
-    UPDATE nombreSchem.table SET
-    nombreCampo1 = 'valor 1',
-    nombreCampo2 = 'valor 2',
-    nombreCampo3 = 'valor 3',
-```
-
-   * [DELETE FROM - Eliminar tabla](V171_Sentencia_DML_en_MySql_Parte_2/eliminar.sql)
-
-```sql
-DELETE FROM personas
-WHERE id_campoIdKey = 12;
-```
+[V173 Cadena de Conexion a Mysql]()
 
 [Volver](../)

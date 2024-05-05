@@ -1,4 +1,4 @@
-### Sección 43 - Programación con Java: Laboratorio Final y conclusión de la sección
+### Sección 44 - Java con JDBC: Introduccion a SQL
 
 [V168 Ejercicio: Instalacion de MySql 8.x](https://dev.mysql.com/downloads/mysql/)
 
