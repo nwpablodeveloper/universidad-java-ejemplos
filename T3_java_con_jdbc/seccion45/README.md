@@ -1,5 +1,7 @@
 ### Sección 43 - Programación con Java: Laboratorio Final y conclusión de la sección
 
+[PDF - Lecciòn laboratorio - Programaciòn en Java](Apuntes/CPJ-A-Leccion-LaboratorioFinal.pdf)
+
 [V168 Ejercicio: Instalacion de MySql 8.x](https://dev.mysql.com/downloads/mysql/)
 
 [V169 Ejercicio: Creación Base de Datos con MySql 8.x](V169_Creacion_Base_de_Datos)
