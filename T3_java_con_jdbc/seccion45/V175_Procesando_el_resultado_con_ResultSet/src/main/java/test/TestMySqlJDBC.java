@@ -19,11 +19,12 @@ public class TestMySqlJDBC {
             System.out.println("resultado: " + resultado);
             
             while( resultado.next() ){
-                System.out.println(resultado.getInt("id_persona"));
-                System.out.println(resultado.getString("nombre"));
-                System.out.println(resultado.getString("apellido"));
-                System.out.println(resultado.getString("email"));
-                System.out.println(resultado.getString("telefono"));
+                System.out.print("id: " + resultado.getInt("id_persona"));
+                System.out.print(" - Nombre: " + resultado.getString("nombre"));
+                System.out.print(" - Apellido: " + resultado.getString("apellido"));
+                System.out.print(" - Email: " + resultado.getString("email"));
+                System.out.print(" - Tel.: " + resultado.getString("telefono"));
+                System.out.println("");
             }
                 
         } catch (SQLException ex) {

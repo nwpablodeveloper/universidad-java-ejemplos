@@ -4,7 +4,6 @@
 
 [V172 Introducción a JDBC]()
 * Creación del proyecto con Java With Maven
-* Click derecho al proyecto -> Clean and build
 * Vincular la libreria de MySql
     - Proyect Files -> 
     - [pom.xml](V172_Introduccion_JDBC/pom.xml)
@@ -24,8 +23,9 @@
 [V173 Cadena de Conexion a Mysql](V173_Cadena_de_Conexion_a_MySql/src/main/java/test/TestMySqlJDBC.java)
 
 [V174 Conexión desde Java con JDBC]()
-* Conectando desde el Main
+* [Conectando desde el Main](V174_Conexion_desde_Java_con_JDBC/src/main/java/test/TestMysqlJDBC.java)
 
 [V175 Conexión desde Java con JDBC]()
+* [Cadena de conexion, conexion y mostrar data en la consola](V175_Procesando_el_resultado_con_ResultSet/src/main/java/test/TestMySqlJDBC.java)
 
 [Volver](../)
