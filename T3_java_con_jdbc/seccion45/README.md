@@ -7,7 +7,7 @@
 * Click derecho al proyecto -> Clean and build
 * Vincular la libreria de MySql
     - Proyect Files -> 
-    - pom.xml
+    - [pom.xml](V172_Introduccion_JDBC/pom.xml)
     - Agregar dependencias
 ```xml
     <dependencies>
@@ -21,6 +21,11 @@
 ```
     - Click derecho al proyecto -> Clean and build
 
-[V173 Cadena de Conexion a Mysql]()
+[V173 Cadena de Conexion a Mysql](V173_Cadena_de_Conexion_a_MySql/src/main/java/test/TestMySqlJDBC.java)
+
+[V174 Conexión desde Java con JDBC]()
+* Conectando desde el Main
+
+[V175 Conexión desde Java con JDBC]()
 
 [Volver](../)
