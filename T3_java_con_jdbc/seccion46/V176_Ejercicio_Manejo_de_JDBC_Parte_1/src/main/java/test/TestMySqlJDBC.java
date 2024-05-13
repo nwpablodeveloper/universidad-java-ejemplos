@@ -26,6 +26,9 @@ public class TestMySqlJDBC {
                 System.out.print(" - Tel.: " + resultado.getString("telefono"));
                 System.out.println("");
             }
+            resultado.close();
+            instruccion.close();
+            conexion.close();
                 
         } catch (SQLException ex) {
             ex.printStackTrace(System.out);
