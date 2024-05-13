@@ -12,10 +12,11 @@ public class TestMySqlJDBC {
         String url = "jdbc:mysql://localhost:3306/test?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true";
         
         try {
+            var sql = "SELECT id_persona, nombre, apellido, email, telefono FROM test.personas";
             Connection conexion = DriverManager.getConnection(url, "root", "admin");
             Statement instruccion = conexion.createStatement();
-            var sql = "SELECT id_persona, nombre, apellido, email, telefono FROM test.personas";
             ResultSet resultado = instruccion.executeQuery(sql);
+            
             System.out.println("resultado: " + resultado);
             
             while( resultado.next() ){
@@ -26,6 +27,9 @@ public class TestMySqlJDBC {
                 System.out.print(" - Tel.: " + resultado.getString("telefono"));
                 System.out.println("");
             }
+            resultado.close();
+            instruccion.close();
+            conexion.close();
                 
         } catch (SQLException ex) {
             ex.printStackTrace(System.out);
