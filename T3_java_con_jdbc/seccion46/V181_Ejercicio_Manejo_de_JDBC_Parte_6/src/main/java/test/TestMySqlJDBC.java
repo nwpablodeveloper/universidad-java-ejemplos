@@ -9,6 +9,8 @@ import java.sql.Statement;
 public class TestMySqlJDBC {
     public static void main(String[] args) {
         
+        // MANEJO ANTIGUO - ESTO ASI ES UNA MALA PRÁCTICA
+        
         String url = "jdbc:mysql://localhost:3306/test?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true";
         
         try {
