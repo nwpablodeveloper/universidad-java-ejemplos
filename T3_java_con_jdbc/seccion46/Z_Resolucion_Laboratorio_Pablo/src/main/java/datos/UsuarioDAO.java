@@ -51,6 +51,21 @@ public class UsuarioDAO {
         ResultSet res = null;
         Usuario usuario = null;
         
+        try {
+            conn = Conexion.getConnection();
+            stmt = conn.prepareStatement(SQL_SELECT);
+            res = stmt.executeQuery();
+            
+            while ( res.next() ) {                
+                int idUsuario = res.getInt("id_usuario");
+                String usuario = res.getString("usuario");
+                String password = res.getString("password");
+            }
+            
+        } catch (SQLException ex) {
+            ex.printStackTrace(System.out);
+        } finally {
+        }
         
         return usuarios;
         
