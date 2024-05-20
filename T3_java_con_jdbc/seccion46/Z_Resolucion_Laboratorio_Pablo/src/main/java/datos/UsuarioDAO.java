@@ -18,6 +18,11 @@ public class UsuarioDAO {
             + "password "
             + "FROM usuarios";
     
+    private static final String SQL_UPDATE = "UPDATE usuarios SET "
+            + "usuario = ?, "
+            + "password = ? "
+            + "WHERE id_usuario = ?";
+    
     public void insertarUsuario(Usuario usuario){
         
         Connection conn = null;
@@ -80,6 +85,32 @@ public class UsuarioDAO {
         
         return usuarios;
         
+    }
+    
+    public void editarUsuario(Usuario usuario){
+        
+        Connection conn = null;
+        PreparedStatement stmt = null;
+        
+        try {
+            conn = Conexion.getConnection();
+            stmt = conn.prepareStatement(SQL_UPDATE);
+            stmt.setString(1, usuario.getUsuario());
+            stmt.setString(2, usuario.getPassword());
+            stmt.setInt(3, usuario.getIdUsuario());
+            stmt.executeUpdate();
+            
+        } catch (SQLException ex) {
+            System.out.println("Error al conectarse para editar el usuario: ");
+            ex.printStackTrace(System.out);
+        }finally{
+            try {
+                Conexion.close(stmt);
+            } catch (SQLException ex) {
+                System.out.println("Error al cerrar las conexiones en editar usuario");
+                ex.printStackTrace(System.out);
+            }
+        }
     }
     
 }
