@@ -23,6 +23,9 @@ public class UsuarioDAO {
             + "password = ? "
             + "WHERE id_usuario = ?";
     
+    private static final String SQL_DELETE = "DELETE FROM usuarios "
+            + "WHERE id_usuario = ?";
+    
     public void insertarUsuario(Usuario usuario){
         
         Connection conn = null;
@@ -108,6 +111,30 @@ public class UsuarioDAO {
                 Conexion.close(stmt);
             } catch (SQLException ex) {
                 System.out.println("Error al cerrar las conexiones en editar usuario");
+                ex.printStackTrace(System.out);
+            }
+        }
+    }
+    
+    public void  eliminar(Usuario usuario){
+        
+        Connection conn = null;
+        PreparedStatement stmt = null;
+        
+        try {
+            conn = Conexion.getConnection();
+            stmt = conn.prepareCall(SQL_DELETE);
+            stmt.setInt(1, usuario.getIdUsuario());
+            stmt.execute();
+            
+        } catch (SQLException ex) {
+            System.out.println("Error al conectarse para eliminar el usuario");
+            ex.printStackTrace(System.out);
+        } finally{
+            try {
+                Conexion.close(stmt);
+            } catch (SQLException ex) {
+                System.out.println("Error al cerrar la conexion de eliminar usuario");
                 ex.printStackTrace(System.out);
             }
         }
