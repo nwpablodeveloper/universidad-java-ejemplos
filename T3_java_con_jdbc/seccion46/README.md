@@ -1,7 +1,5 @@
 ### Sección 46 - Java con JDBC: Manejo de JDBC
 
-[PDF - Introducción a JDBC](Apuntes/02-01-IntroduccionJDBC-JDBC.pdf)
-
 [V176 Ejercicio Manejos de JDBC - Parte 1 - Mysql](V176_Ejercicio_Manejo_de_JDBC_Parte_1/src/main/java)
 - [Clase Conexión]()
     * El fin de esta clase es solo para crear la conexión a la DB
