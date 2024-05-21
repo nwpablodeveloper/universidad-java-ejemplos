@@ -1,7 +1,7 @@
 ### Sección 46 - Java con JDBC: Manejo de JDBC
 
 [V176 Ejercicio Manejos de JDBC - Parte 1 - Mysql](V176_Ejercicio_Manejo_de_JDBC_Parte_1/src/main/java)
-- [Clase Conexión]()
+- [Clase Conexión](V176_Ejercicio_Manejo_de_JDBC_Parte_1/src/main/java/datos/Conexion.java)
     * El fin de esta clase es solo para crear la conexión a la DB
 
 [V177 Ejercicio Manejos de JDBC - Parte 2 - Mysql](V177_Ejercicio_Manejo_de_JDBC_Parte_2/src/main/java)
