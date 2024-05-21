@@ -133,28 +133,5 @@ public class PersonaDAO {
         return persona;
     }
     
-    public void eliminar(int id_persona){
-        
-        Connection conn = null;
-        PreparedStatement stmt = null;
-        
-        try {
-            
-            conn = getConnection();
-            stmt = conn.prepareStatement(SQL_ELIMINAR);
-            stmt.setInt(1, id_persona);
-            stmt.executeUpdate();
-            
-        } catch (SQLException ex) {
-            ex.printStackTrace(System.out);
-        }finally{
-            try {
-                close(stmt);
-                close(conn);
-            } catch (SQLException ex) {
-                ex.printStackTrace(System.out);
-            }
-        }
-        
-    }
+   
 }

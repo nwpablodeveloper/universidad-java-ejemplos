@@ -38,8 +38,6 @@ public class TestManejoPersonas {
                         "romi@gmail.com", 
                         "654654"));
 
-        // Eliminar registro
-        personaDAO.eliminar(55);
         
         List<Persona> personas = personaDAO.seleccionar();
 
