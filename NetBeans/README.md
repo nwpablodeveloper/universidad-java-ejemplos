@@ -1,11 +1,12 @@
 |Acción| Combinación|
-|------|------------|
+|-----------------------------------------------------------------------|--------------------|
 |Nuevo Proyecto:                                                        | Ctrl + Shift + N|
 |Nuevo Archivo:                                                         | Ctrl + N|
 |Dar formato al código:                                                 | Alt + Shift + F|
 |Duplicar linea:                                                        | Ctrl + Shift + flecha direccional|
 |Mover linea:                                                           | Ctrl + Alt + flecha direccional|
 |Borrar línea:                                                          | Ctrl + E |
+|Reemplazar texto:                                                      | Ctrl + H |
 |Ejecutar clase main:                                                   | Shift + F6|
 |Ejecutar con Debug ( Crear punto de rotura )                           | Ctrl + Shift + F5|
 |   - F8 Ejecutar siguiente linea                                       | |
