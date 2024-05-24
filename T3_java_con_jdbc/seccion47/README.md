@@ -1,4 +1,4 @@
-### Sección 47 - Java con JDBC: 
+### Sección 47 - Java con JDBC: Manejo de Transacciones
 
 [V187 - PDF - Transacciones con JDBC](Apuntes/CJDBC-A-Leccion-TransaccionesJDBC.pdf)
  - Una transacción es un conjunto de Querys que son agrupadas en bloques 
