@@ -3,10 +3,10 @@
 [V190 - PDF - Capa de Datos JDBC](Apuntes/CJDBC-A-Leccion-CapaDatosJDBC.pdf)
 
 [V191 Ejercicio Cración Capa de Datos](V190_Ejercicio_Cracion_Capa_de_Datos/src/main/java)
-    * Patron DAO ( Data Access Object)
-    * Patron DTO ( Data Transfer Object)
-    * [interface PersonaDAO](V190_Ejercicio_Cracion_Capa_de_Datos/src/main/java/datos/PersonaDAO.java)
-    * [Clase PersonaDTO](V190_Ejercicio_Cracion_Capa_de_Datos/src/main/java/domain/PersonaDTO.java)
+- Patron DAO ( Data Access Object)
+- Patron DTO ( Data Transfer Object)
+- [interface PersonaDAO](V190_Ejercicio_Cracion_Capa_de_Datos/src/main/java/datos/PersonaDAO.java)
+- [Clase PersonaDTO](V190_Ejercicio_Cracion_Capa_de_Datos/src/main/java/domain/PersonaDTO.java)
 
 
 [Volver](../)
