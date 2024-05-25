@@ -21,7 +21,7 @@ public class TestManejoPersonas {
                 conexion.setAutoCommit(false);
             }
             
-            // 
+            // Cracion del Objeto declarandolo con su Interface
             PersonaDAO personaDAO = new PersonaDaoJDBC(conexion);
             
             // Cración objeto Persona
@@ -36,7 +36,7 @@ public class TestManejoPersonas {
             
             // Cración para actualizar un objeto Persona
             persona1 = new PersonaDTO();
-            persona1.setIdPersona(2);
+            persona1.setIdPersona(5);
             persona1.setNombre("Pablo Andres");
             persona1.setApellido("Veiga");
             

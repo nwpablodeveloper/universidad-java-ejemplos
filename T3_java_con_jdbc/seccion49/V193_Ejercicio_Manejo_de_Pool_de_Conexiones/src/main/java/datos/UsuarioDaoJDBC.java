@@ -10,7 +10,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UsuarioJDBC {
+public class UsuarioDaoJDBC implements UsuarioDAO{
 
     private Connection conexionTransaccion;
 
@@ -32,10 +32,10 @@ public class UsuarioJDBC {
     private static final String SQL_ELIMINAR = "DELETE FROM usuarios "
             + "WHERE id_usuario = ?";
 
-    public UsuarioJDBC() {
+    public UsuarioDaoJDBC() {
     }
 
-    public UsuarioJDBC(Connection conexionTransaccion) {
+    public UsuarioDaoJDBC(Connection conexionTransaccion) {
         this.conexionTransaccion = conexionTransaccion;
     }
 
