@@ -21,6 +21,7 @@ public class Conexion {
             dataSource.setUrl(JDBC_URL);
             dataSource.setUsername(JDBC_USER);
             dataSource.setPassword(PASSWORD);
+            dataSource.setPassword(PASSWORD);
 
             // Cantidad del Pool de Conexiones
             dataSource.setInitialSize(50);
