@@ -2,7 +2,7 @@ package datos;
 
 import static datos.Conexion.close;
 import static datos.Conexion.getConnection;
-import domain.Usuario;
+import domain.UsuarioDTO;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -10,7 +10,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UsuarioJDBC {
+public class UsuarioDaoJDBC {
 
     private Connection conexionTransaccion;
 
@@ -32,16 +32,16 @@ public class UsuarioJDBC {
     private static final String SQL_ELIMINAR = "DELETE FROM usuarios "
             + "WHERE id_usuario = ?";
 
-    public UsuarioJDBC() {
+    public UsuarioDaoJDBC() {
     }
 
-    public UsuarioJDBC(Connection conexionTransaccion) {
+    public UsuarioDaoJDBC(Connection conexionTransaccion) {
         this.conexionTransaccion = conexionTransaccion;
     }
 
-    public List<Usuario> seleccionar() throws SQLException {
+    public List<UsuarioDTO> seleccionar() throws SQLException {
 
-        List<Usuario> usuarios = new ArrayList<>();
+        List<UsuarioDTO> usuarios = new ArrayList<>();
 
         Connection conn = null;
         PreparedStatement stmt = null;
@@ -60,7 +60,7 @@ public class UsuarioJDBC {
                 String username = rs.getString("usuario");
                 String password = rs.getString("password");
 
-                usuarios.add(new Usuario(idUsuario, username, password));
+                usuarios.add(new UsuarioDTO(idUsuario, username, password));
             }
 
             
@@ -80,7 +80,7 @@ public class UsuarioJDBC {
         return usuarios;
     }
 
-    public int insertar(Usuario usuario) throws SQLException {
+    public int insertar(UsuarioDTO usuario) throws SQLException {
         Connection conn = null;
         PreparedStatement stmt = null;
         int registros = 0;
@@ -110,7 +110,7 @@ public class UsuarioJDBC {
         return registros;
     }
 
-    public int actualizar(Usuario usuario) throws SQLException {
+    public int actualizar(UsuarioDTO usuario) throws SQLException {
         Connection conn = null;
         PreparedStatement stmt = null;
         int registros = 0;
@@ -145,7 +145,7 @@ public class UsuarioJDBC {
         return registros;
     }
 
-    public int eliminar(Usuario usuario) throws SQLException {
+    public int eliminar(UsuarioDTO usuario) throws SQLException {
 
         Connection conn = null;
         PreparedStatement stmt = null;

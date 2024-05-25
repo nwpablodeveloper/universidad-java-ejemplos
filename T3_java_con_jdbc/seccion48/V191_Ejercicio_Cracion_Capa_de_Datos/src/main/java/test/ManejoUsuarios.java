@@ -1,8 +1,8 @@
 package test;
 
 import datos.Conexion;
-import datos.UsuarioJDBC;
-import domain.Usuario;
+import datos.UsuarioDaoJDBC;
+import domain.UsuarioDTO;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.*;
@@ -14,7 +14,7 @@ public class ManejoUsuarios {
     public static void main(String[] args) {
 
         Connection conexion = null;
-        UsuarioJDBC usuarioJDBC = new UsuarioJDBC();
+        UsuarioDaoJDBC usuarioJDBC = new UsuarioDaoJDBC();
         
         try {
             conexion = Conexion.getConnection();
@@ -24,13 +24,13 @@ public class ManejoUsuarios {
             }
 
             // Insertar usuario
-            Usuario usuario1 = new Usuario();
+            UsuarioDTO usuario1 = new UsuarioDTO();
             usuario1.setUssername("nwpablo");
             usuario1.setPassword("123456");
             usuarioJDBC.insertar(usuario1);
             
-            // Actualizar Usuario
-            usuario1 = new Usuario(5, "sophi", "987654321");
+            // Actualizar UsuarioDTO
+            usuario1 = new UsuarioDTO(5, "sophi", "987654321");
             usuarioJDBC.actualizar(usuario1);
             
             conexion.commit();
