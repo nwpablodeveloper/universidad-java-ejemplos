@@ -7,9 +7,9 @@ import java.util.List;
 public interface UsuarioDAO {
     
     public List<UsuarioDTO> seleccionar() throws SQLException;
-    public int insertar() throws SQLException;
-    public int actualizar() throws SQLException;
-    public int eliminar() throws SQLException;
+    public int insertar(UsuarioDTO usuario) throws SQLException;
+    public int actualizar(UsuarioDTO usuario) throws SQLException;
+    public int eliminar(UsuarioDTO usuario) throws SQLException;
     public void vaciarTabla() throws SQLException;
     
     
