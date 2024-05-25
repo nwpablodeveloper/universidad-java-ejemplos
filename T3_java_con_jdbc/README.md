@@ -5,6 +5,7 @@
     * Laboratorio de sección
 * [Sección 47 - 34min - Manejo de Transacciones](seccion47)
 * [Sección 48 - 26min - Patrones de Diseño y Buenas Prácticas](seccion48)
+* [Sección 49 - 10min - Manejo de Pool de Conexiones](seccion49)
 
 
 [Volver](../)
