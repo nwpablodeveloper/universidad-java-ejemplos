@@ -5,7 +5,7 @@
     <artifactId>V199_Ejercicio_Hola_Mundo_con_Servelets</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
-    <name>V199_Ejercicio_Hola_Mundo_con_Servelets-1.0</name>
+    <name>V199_Ejercicio_Hola_Mundo_con_Servelets</name>
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
