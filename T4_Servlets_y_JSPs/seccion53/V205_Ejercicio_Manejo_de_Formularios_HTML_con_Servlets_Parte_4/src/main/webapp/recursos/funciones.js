@@ -10,8 +10,8 @@ function validarForma(form) {
     var password = form.password;
     if (password.value == "" || password.value < 3) {
         alert("Debe proporcionar un password minimo de 3 caracteres");
-        usuarios.focus();
-        usuario.select();
+        password.focus();
+        password.select();
         return false;
     }
 
@@ -29,7 +29,7 @@ function validarForma(form) {
         return false;
     }
 
-    var generos = form.generos;
+    var generos = form.genero;
     var radioSeleccionado = false;
 
     for (var i = 0; i < generos.length; i++) {
@@ -42,8 +42,8 @@ function validarForma(form) {
         alert("debe seleccionar un genero");
         return false;
     }
-
-    return false;
-
-
+    
+    // Formulario valido
+    return true;
+    
 }

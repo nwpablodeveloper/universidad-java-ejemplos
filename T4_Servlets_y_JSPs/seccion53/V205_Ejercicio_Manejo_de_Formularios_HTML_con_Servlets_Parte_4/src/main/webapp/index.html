@@ -11,8 +11,8 @@
             name="form1"
             action="/V205_Ejercicio_Manejo_de_Formularios_HTML_con_Servlets_Parte_4/Servlet"
             method="post"
-            onsubmit="return validarForma(this)"
-            >
+            onsubmit="return validarForma(this)">
+            
             <input type="hidden" name="oculto" value="valorOculto"/>
             
             <table width="%50" id="enfasis-columna">
@@ -23,8 +23,12 @@
                 <tr>
                     <td class="columna">Usuario: (*)</td>
                     <td>
-                        <input class="default" type="text" name="usuario"
-                               value="nwpablo" onfocus="this.select()"/>
+                        <input 
+                            class="default" 
+                            type="text" 
+                            name="usuario"
+                            value="Escribir usuario" 
+                            onfocus="this.select()"/>
                     </td>
                 </tr>
 
@@ -32,7 +36,6 @@
                     <td class="columna">Password: (*)</td>
                     <td>
                         <input 
-                            value="123456"
                             class="default" 
                             type="password" 
                             name="password" 
