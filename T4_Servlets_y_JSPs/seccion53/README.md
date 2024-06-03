@@ -18,6 +18,6 @@
 
 [V206 Ejercicio Manejo de Formularios HTML con Servlets - Parte 5](V206_Ejercicio_Manejo_de_Formularios_HTML_con_Servlets_Parte_5/src/main)
 - [Class Servlet](V206_Ejercicio_Manejo_de_Formularios_HTML_con_Servlets_Parte_5/src/main/java/web/Servlet.java)
-    * Imprimir HTML con todo los valores seleccionados del form
+    * Imprimir HTML con todo los valores recibidos del form
 
 [Volver](../)
