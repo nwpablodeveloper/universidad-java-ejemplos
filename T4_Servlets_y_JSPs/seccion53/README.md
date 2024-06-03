@@ -1,4 +1,4 @@
-### Sección 52 - Servlets y JSPs: Concepto de los Servlets
+### Sección 53 - Servlets y JSPs: Manejo de Formularios HTML con Servlets
 
 [V202 Ejercicio Manejo de Formularios HTML con Servlets - Parte 1](V202_Ejercicio_Manejo_de_Formularios_HTML_con_Servlets_Parte_1/src/main)
 - Creando la estructura de la App
