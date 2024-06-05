@@ -6,9 +6,9 @@
 
    - [CREATE SCHEMA - Crear DB](V169_Creacion_Base_de_Datos/crear_schema.sql)
 
-```sql
-    CREATE SCHEMA nombreDb;
-```
+    ```sql
+        CREATE SCHEMA nombreDb;
+    ```
 
    - [CREATE TABLE - Crear tabla en la DB](V169_Creacion_Base_de_Datos/crear_tabla.sql)
 
