@@ -8,9 +8,9 @@
         * Instalación de un servidor de GlassFish
 
 * [V198 Ejercicio Hola Mundo Java Web](V199_Ejercicio_Hola_Mundo_con_Servelets/src/main)
-    1. New Project
-    2. Java With Meaven
-    3. web Application
+    * New Project
+    * Java With Meaven
+    * web Application
 
 * [V199 Ejercicio Hola Mundo con Servelets](V199_Ejercicio_Hola_Mundo_con_Servelets/src/main)
     - [index.html](V199_Ejercicio_Hola_Mundo_con_Servelets/src/main/webapp/index.html)
