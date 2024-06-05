@@ -1,4 +1,4 @@
-### Certificaciones - Preguntas y temas para tener en cuenta
+### Apuntes Importantes
 * [Sección 27 - Bloques de inicialización](../T2_Programacion/seccion27)
 * [Sección 30 - Modificadores de acceso](../T2_Programacion/seccion30)
 * [Sección 32 - Polimorfismo](../T2_Programacion/seccion32)
@@ -11,3 +11,4 @@
 * [Sección 48 - Patrones de diseños - Capas de Datos]()
     - DAO (Data Acces Object)
     - DTO (Data Transfer Object)
+* [Seccion 56 - Excel, MIME Manejo de tipos de Archivos](../T4_Servlets_y_JSPs/seccion56)
