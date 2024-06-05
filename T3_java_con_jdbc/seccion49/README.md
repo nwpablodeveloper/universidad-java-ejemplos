@@ -1,10 +1,10 @@
 ### Sección 49 - Java con JDBC: Manejo de Pool de Conexiones 
 
-[V192 - PDF - Manejo de Pool de Conexiones](Apuntes/CJDBC-A-Leccion-PoolConexiones.pdf)
+* [V192 - PDF - Manejo de Pool de Conexiones](Apuntes/CJDBC-A-Leccion-PoolConexiones.pdf)
 
-[V193 Ejercicio Manejo de Pool de Conexiones](V193_Ejercicio_Manejo_de_Pool_de_Conexiones/src/main/java)
-- [porm xml](V193_Ejercicio_Manejo_de_Pool_de_Conexiones/pom.xml)
-    * Incorporación de la libreria de Apache commons
+* [V193 Ejercicio Manejo de Pool de Conexiones](V193_Ejercicio_Manejo_de_Pool_de_Conexiones/src/main/java)
+    - [porm xml](V193_Ejercicio_Manejo_de_Pool_de_Conexiones/pom.xml)
+        * Incorporación de la libreria de Apache commons
 
 ```xml
         <dependency>
